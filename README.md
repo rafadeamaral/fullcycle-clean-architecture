@@ -8,4 +8,5 @@
 Criado endpoint para Products
 
 ## Notification Pattern em Products
-Utilizado o padrão notification na entidade Products
+- Utilizado o padrão notification na entidade Products
+- Validação na entidade Products com uso do YUP
