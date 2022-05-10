@@ -39,7 +39,7 @@ describe("Unit test create product use case", () => {
       name: "",
       price: input.price
     })).rejects.toThrow(
-      "Name is required"
+      "product: Name is required"
     );
   });
 
@@ -51,7 +51,7 @@ describe("Unit test create product use case", () => {
       name: input.name,
       price: 0
     })).rejects.toThrow(
-      "Price must be greater than zero"
+      "product: Price must be greater than zero"
     );
   });
 });
