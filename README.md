@@ -6,3 +6,6 @@
 
 ## API de Products
 Criado endpoint para Products
+
+## Notification Pattern em Products
+Utilizado o padrão notification na entidade Products
